@@ -1,0 +1,55 @@
+.crypto-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 12px 20px;
+}
+@media (min-width: 768px) {
+    .crypto-item{
+        padding: 12px 40px;
+    }
+}
+.logo-currency-container {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 30%;
+}
+.currency-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin: 0;
+}
+.currency-logo {
+  width: 25px;
+  height: 25px;
+}
+.values-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  width: 30%;
+  text-align: right;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .logo-currency-container {
+    width: 20%;
+  }
+  .values-text {
+    width: 20%;
+  }
+}
+@media (min-width: 768px) {
+  .values-text {
+    font-size: 17px;
+  }
+  .currency-name {
+    font-size: 17px;
+  }
+}
+* {
+  /* border: 1px solid white; */
+}

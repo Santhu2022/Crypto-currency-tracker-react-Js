@@ -1,0 +1,63 @@
+.app-container {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 680px;
+}
+.app-heading {
+  text-align: center;
+}
+.crypto-banner-image {
+  width: 100%;
+}
+.currrency-list {
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  border: 4px solid #00e7ff;
+  border-radius: 8px;
+}
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #092e33;
+  padding: 16px 20px;
+}
+
+.header-cell {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  width: 30%;
+  text-align: right;
+  margin: 0;
+}
+.first-cell {
+  margin-right: auto;
+  text-align: left;
+  width: 30%;
+}
+
+@media (min-width: 576px) {
+  .header-cell {
+    width: 20%;
+  }
+}
+@media (min-width: 768px) {
+  .header-cell {
+    font-size: 20px;
+  }
+  .table-header {
+    padding: 16px 40px;
+  }
+}
+.first-cell {
+  margin-right: auto;
+  text-align: left;
+  width: 30%;
+}
